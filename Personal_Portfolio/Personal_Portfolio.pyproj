@@ -44,6 +44,7 @@
     <Content Include="Website\templates\education.html" />
     <Content Include="Website\templates\experience.html" />
     <Content Include="Website\templates\home.html" />
+    <Content Include="Website\templates\js\home.js" />
     <Content Include="Website\templates\links.html" />
     <Content Include="Website\templates\projects.html" />
   </ItemGroup>
@@ -63,6 +64,7 @@
     <Folder Include="Website\static\images\" />
     <Folder Include="Website\static\" />
     <Folder Include="Website\templates\" />
+    <Folder Include="Website\templates\js\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
