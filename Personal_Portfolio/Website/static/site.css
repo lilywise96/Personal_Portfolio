@@ -64,7 +64,9 @@ html, body {
 /* All content style is below */
 #summary {
     margin-left: 2%;
-    background: rgba(255, 255, 255, 0.75);
+    border-style: double;
+    border-width: 5px;
+    border-color: rgba(255, 255, 255, 0.75);
     width: 96%;
 }
 
