@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
 #bg_video {
     position: fixed;
     right: 0px;
@@ -6,20 +11,35 @@
     min-height: 100%;
 }
 
-.content {
+#page {
     position: relative;
+    min-height: 100%;
 }
 
-.header {
-    padding: 5px 20px;
+#content {
+    margin-bottom: -50px; /* Same as height as footer/push */
+}
+
+.head_foot {
     background: rgba(139, 134, 143, 0.90);
     color: #ffffff;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+#header {
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 100%;
 }
 
-.text {
-    font-size: 100px;
+#push {
+    height: 50px; /* Same as height as footer */
 }
+
+#footer {
+    bottom: 0px;
+    left: 0px;
+    height: 50px; /* Same as height as psuh */
+}
+
