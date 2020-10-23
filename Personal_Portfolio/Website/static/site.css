@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0px;
+    color: #ffffff;
 }
 
 #bg_video {
@@ -17,29 +18,65 @@ html, body {
 }
 
 #content {
-    margin-bottom: -50px; /* Same as height as footer/push */
+    width: 100%;
+    margin-top: 20px; /* Same height as header/top_push */
+    margin-bottom: -50px; /* Same as height as footer/bottom_push */
 }
 
 .head_foot {
     background: rgba(139, 134, 143, 0.90);
-    color: #ffffff;
     width: 100%;
-    padding: 5px 20px;
 }
 
 #header {
     position: fixed;
     top: 0px;
     left: 0px;
+    height: 50px;
 }
 
-#push {
+#top_push {
+    height: 20px; /* Same as height as header */
+}
+
+#bottom_push {
     height: 50px; /* Same as height as footer */
 }
 
 #footer {
     bottom: 0px;
     left: 0px;
-    height: 50px; /* Same as height as psuh */
+    width: 100%;
+    height: 50px; /* Same as height as bottom_push */
 }
 
+/* Give padding this way to avoid horizontal scroll */
+#head_info {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+#foot_info {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+/* All content style is below */
+#summary {
+    margin-left: 2%;
+    background: rgba(255, 255, 255, 0.75);
+    width: 96%;
+}
+
+#name_title {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+}
+
+#profile_pic {
+    border-radius: 50%;
+    height: 220px;
+    width: 180px;
+    margin: 20px;
+}

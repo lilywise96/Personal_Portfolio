@@ -3,8 +3,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Lily's Portfolio</title>
     <link rel="stylesheet" href="/static/site.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <script src="js/home.js"></script>
 </head>
 <body>
@@ -17,21 +18,29 @@
 
         <!-- Header -->
         <div id="header" class="head_foot">
-            <p>{{title}}</p>
+            <p id="head_info">{{title}}</p>
         </div>
 
         <!-- The rest of the content for the page -->
         <div id="content">
+            <!-- Place holder that leaves space for header -->
+            <div id="top_push"></div>
 
-            
+            <h1 id="name_title">Lily Wise</h1>
+
+            <!-- Image and summary of me -->
+            <div id="summary">
+                <img src="../static/images/profile_pic.jpg" id="profile_pic" />
+            </div>
+
 
             <!-- Place holder that leaves space for footer -->
-            <div id="push"></div>
+            <div id="bottom_push"></div>
         </div>
 
         <!-- Footer -->
         <div id="footer" class="head_foot">
-            <p>&copy;{{year}} Lily Wise</p>
+            <p id="foot_info">&copy; {{year}} Lily Wise</p>
         </div>
 
     </div>
