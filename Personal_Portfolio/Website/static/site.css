@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0px;
     color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #bg_video {
@@ -66,8 +67,11 @@ html, body {
     margin-left: 2%;
     border-style: double;
     border-width: 5px;
-    border-color: rgba(255, 255, 255, 0.75);
+    border-color: rgba(255, 255, 255, 1);
     width: 96%;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 1px;
 }
 
 #name_title {
@@ -78,7 +82,16 @@ html, body {
 
 #profile_pic {
     border-radius: 50%;
-    height: 220px;
-    width: 180px;
+    height: 200px;
+    width: 200px;
     margin: 20px;
+    float: left;
+}
+
+#summary_text {
+    margin-left: 250px; /* Width of profile_pic */
+    margin-right: 50px;
+    padding: 5px 20px 5px 10px;
+    font-size: 40px;
+    color: rgba(139, 134, 143, 1);
 }
