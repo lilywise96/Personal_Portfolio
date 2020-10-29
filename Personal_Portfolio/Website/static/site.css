@@ -95,3 +95,24 @@ html, body {
     font-size: 40px;
     color: rgba(139, 134, 143, 1);
 }
+
+.bubbles {
+    width: 50%;
+    float: left;
+}
+
+.bubbles:hover {
+    color: rgba(139, 134, 143, 1);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#all_bubbles {
+    overflow: auto;
+    padding: 20px;
+}
+
+#all_bubbles::after {
+    content: "";
+    clear: both;
+    display: block;
+}
